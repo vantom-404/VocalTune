@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">استوديو فوكال تيون</string>
+    <string name="default_recording_name">تسجيل.wav</string>
+
+    <!-- Navigation & Header -->
+    <string name="tab_studio">الاستوديو</string>
+    <string name="tab_library">التسجيلات</string>
+    <string name="title_vocaltune_studio">استوديو فوكال تيون</string>
+    <string name="status_rec">● تسجيل</string>
+    <string name="status_paused">⏸ متوقف مؤقتاً</string>
+
+    <!-- Master Engine -->
+    <string name="engine_tap_activate">انقر لتشغيل الأوتوتيون</string>
+    <string name="engine_active">الأوتوتيون نشط</string>
+
+    <!-- Presets -->
+    <string name="presets_header">نماذج الصوت الجاهزة</string>
+    <string name="btn_save_preset">حفظ كنموذج</string>
+    <string name="preset_natural">صوت طبيعي</string>
+    <string name="preset_natural_desc">تصحيح نغمي دقيق وشفاف، دفء صوتي، وصدى خفيف</string>
+    <string name="preset_hard_tune">أوتوتيون قوي</string>
+    <string name="preset_hard_tune_desc">التقاط نغمي فوري ولمعان صوتي عصري بطابع الهيب هوب</string>
+    <string name="preset_rap">صوت راب</string>
+    <string name="preset_rap_desc">ديناميكيات قوية، قطع الترددات المنخفضة، صدى قصير وسريع</string>
+    <string name="preset_pop">صوت بوب</string>
+    <string name="preset_pop_desc">ترددات عالية براقة، صدى استوديو فاخر، وتصحيح نغمي سلس</string>
+    <string name="preset_soft">تصحيح ناعم</string>
+    <string name="preset_soft_desc">لمسة صوتية هادئة وسرعة انتقال طبيعية بين النغمات</string>
+    <string name="preset_robotic">صوت آلي</string>
+    <string name="preset_robotic_desc">تثبيت مطلق للنغمة بدون اهتزاز، مع صدى معدني مصطنع</string>
+    <string name="preset_deep">صوت عميق</string>
+    <string name="preset_deep_desc">تعزيز دفء الترددات الجهيرة، ضغط صوتي سميك ورنين صدري</string>
+    <string name="preset_bright">صوت ساطع</string>
+    <string name="preset_bright_desc">وضوح فائق في طبقات الهواء، وتصحيح نغمي سريع ونقي</string>
+
+    <!-- Record Controls -->
+    <string name="recorder_dual_title">مسجل مزدوج (خام + معدل)</string>
+    <string name="recorder_dual_desc">يحفظ الصوت الأصلي غير المعالج لتعديله لاحقاً</string>
+    <string name="recorder_in_progress">جاري التسجيل (خام + معدل)</string>
+    <string name="recorder_paused">تم إيقاف التسجيل مؤقتاً</string>
+    <string name="btn_record">تسجيل</string>
+    <string name="btn_pause">إيقاف مؤقت</string>
+    <string name="btn_resume">استئناف</string>
+    <string name="btn_stop">إيقاف</string>
+
+    <!-- Tuning Controls -->
+    <string name="musical_key_title">المقام الموسيقي (الأساس)</string>
+    <string name="musical_scale_title">السلم الموسيقي</string>
+    <string name="autotune_strength_title">قوة الأوتوتيون</string>
+    <string name="autotune_strength_sub" formatted="false">0% = صوت طبيعي، 100% = تصحيح حاد فوري</string>
+    <string name="retune_speed_title">سرعة التصحيح (RETUNE SPEED)</string>
+    <string name="retune_speed_sub">سرعة الانتقال إلى النغمة الصحيحة</string>
+
+    <!-- Effects Rack -->
+    <string name="effects_rack_title">وحدة المؤثرات الصوتية الاحترافية</string>
+    <string name="noise_gate_title">بوابة الضوضاء (NOISE GATE)</string>
+    <string name="noise_gate_desc">قطع التشويش وأصوات الخلفية بين الجمل الغنائية</string>
+    <string name="eq_title">معادل الصوت البارامتري (3-BAND EQ)</string>
+    <string name="compressor_title">ضاغط الصوت الديناميكي (COMPRESSOR)</string>
+    <string name="reverb_delay_title">الصدى والمساحة الصوتية (REVERB &amp; DELAY)</string>
+    <string name="vocal_gain_title">مستوى كسب الصوت (GAIN)</string>
+
+    <!-- Toggles -->
+    <string name="toggle_bypass">تجاوز المؤثرات (BYPASS)</string>
+    <string name="toggle_bypass_on">الصوت الخام</string>
+    <string name="toggle_bypass_off">صوت مصحح</string>
+    <string name="toggle_monitor">المراقبة المباشرة (MONITOR)</string>
+    <string name="toggle_monitor_on">سماع عبر السماعات</string>
+    <string name="toggle_monitor_off">صامت</string>
+
+    <!-- Library & A/B Testing -->
+    <string name="library_clips_title">المقاطع المسجلة</string>
+    <string name="library_empty_title">لا توجد تسجيلات</string>
+    <string name="library_empty_desc">انتقل إلى تبويب الاستوديو، شغل المحرك واضغط تسجيل لحفظ صوتك مصححاً مع نسخة خام.</string>
+    <string name="badge_raw_archive">نسخة خام محفوظة</string>
+    <string name="btn_ab_hear_raw">استمع للصوت الخام (A/B)</string>
+    <string name="btn_ab_hear_tuned">استمع للصوت المصحح</string>
+    <string name="dialog_retune_title">إعادة ضبط النغمة للمقطع</string>
+    <string name="dialog_retune_desc">إعادة معالجة الصوت الخام المحفوظ بمقام جديد أو سلم مختلف بدون الحاجة لإعادة التسجيل.</string>
+    <string name="btn_render_tuned">معالجة وتصدير WAV</string>
+    <string name="btn_delete">حذف</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="btn_save">حفظ</string>
+    <string name="btn_grant">سماح</string>
+    <string name="permission_required_title">مطلوب إذن الميكروفون</string>
+    <string name="permission_required_desc">يرجى منح الإذن للوصول للميكروفون لمعالجة الصوت وتصحيح النغمات مباشرة</string>
+
+    <!-- Errors & Alerts -->
+    <string name="error_mic_failed">فشل تشغيل الميكروفون</string>
+    <string name="error_track_failed">فشل مسار تشغيل الصوت</string>
+    <string name="alert_headphones_recommended">يُنصح بارتداء سماعات الرأس لتجنب التغذية الراجعة الصوتية عند تفعيل المراقبة المباشرة</string>
+</resources>

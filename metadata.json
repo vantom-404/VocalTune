@@ -1,0 +1,6 @@
+{
+  "name": "VocalTune Studio",
+  "description": "Professional real-time Auto-Tune & pitch correction studio with live DSP",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Navigation drawer items. -->
+    <string-array name="drawer_items_array">
+        <item>@string/drawer_item_record</item>
+        <item>@string/drawer_item_library</item>
+        <item>@string/drawer_item_settings</item>
+        <item>@string/drawer_item_help</item>
+        <item>@string/drawer_item_about</item>
+        <item>@string/drawer_item_donate</item>
+    </string-array>
+
+    <!-- Recording options items. -->
+    <string-array name="recording_options_array">
+        <item>@string/recording_options_play</item>
+        <item>@string/recording_options_delete</item>
+        <item>@string/recording_options_rename</item>
+        <item>@string/recording_options_export</item>
+        <item>@string/recording_options_set_ringtone</item>
+        <item>@string/recording_options_set_notification</item>
+        <item>@string/recording_options_share</item>
+    </string-array>
+
+    <!-- Recording sample rates. -->
+    <string-array name="prefs_sample_rate_entries">
+        <item>44100 Hz (default)</item>
+        <item>22050 Hz</item>
+        <item>11025 Hz</item>
+        <item>8000 Hz</item>
+    </string-array>
+
+    <!-- Values for sample rates menu. -->
+    <string-array name="prefs_sample_rate_values">
+        <item>44100</item>
+        <item>22050</item>
+        <item>11025</item>
+        <item>8000</item>
+    </string-array>
+
+    <!-- Entry names for the key menu. -->
+    <string-array name="prefs_key_entries">
+        <item>Chromatic</item>
+        <item>Ab Major</item>
+        <item>A Major</item>
+        <item>Bb Major</item>
+        <item>B Major</item>
+        <item>C Major (default)</item>
+        <item>Db Major</item>
+        <item>D Major</item>
+        <item>Eb Major</item>
+        <item>E Major</item>
+        <item>F Major</item>
+        <item>Gb Major</item>
+        <item>G Major</item>
+    </string-array>
+
+    <!-- Values for the key menu. -->
+    <string-array name="prefs_key_values">
+        <item>X</item>
+        <item>a</item>
+        <item>A</item>
+        <item>b</item>
+        <item>B</item>
+        <item>C</item>
+        <item>d</item>
+        <item>D</item>
+        <item>e</item>
+        <item>E</item>
+        <item>F</item>
+        <item>g</item>
+        <item>G</item>
+    </string-array>
+
+</resources>
